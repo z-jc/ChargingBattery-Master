@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.charging.ui.view.PagerEnabledSlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_pan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MainActivity">
+
+    <include
+        layout="@layout/layout_menu" />
+
+    <include
+        android:id="@+id/rl_main"
+        layout="@layout/layout_main" />
+
+</com.android.charging.ui.view.PagerEnabledSlidingPaneLayout>
